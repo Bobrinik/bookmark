@@ -1,0 +1,7 @@
+#!/bin/bash
+
+FOLDER="$HOME/Documents/bookmarks"
+date=$(date +%d-%m-%Y)
+path="$FOLDER/$date"
+
+echo $1 >> $path
